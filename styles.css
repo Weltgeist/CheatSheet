@@ -35,11 +35,11 @@ main {
 }
 
 .index {
-  width: 25%;
+  width: 10%;
   background-color: pink;
 }
 
 .content {
-  width: 75%;
+  width: 90%;
   background-color: blue;
 }
