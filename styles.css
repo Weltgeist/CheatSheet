@@ -5,8 +5,8 @@ header {
   text-align: center;
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: -15px;
-  padding: 20px;
+  margin: 0px -5px;
+  padding: 20px 0px;
 }
 
 nav ul li {
@@ -15,7 +15,31 @@ nav ul li {
 
 nav  {
   background-color: gray;
-  margin: -15px;
-  padding: 2px;
+  margin: 0px -5px;
+  padding: 2px 0px;
 }
 
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0px -5px;
+  padding: 5px 0px;
+}
+
+main {
+  display: flex;
+  margin: 0px -5px;
+  padding: 0px 0px;
+}
+
+.index {
+  width: 25%;
+  background-color: pink;
+}
+
+.content {
+  width: 75%;
+  background-color: blue;
+}
