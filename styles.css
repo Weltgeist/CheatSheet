@@ -14,7 +14,7 @@ header {
 }
 
 nav  {
-  background-color:  hsl(0, 0%, 65%);
+  background-color:  hsl(240, 100%, 50%);
   margin: 0px -5px;
   padding: 5px 0px;
 }
@@ -29,7 +29,7 @@ nav ul li {
   display: inline;
   padding: 0px 14px;
   margin: 5px -5px;
-  background-color: silver;
+  background-color:  hsl(240, 100%, 50%);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
 }
@@ -55,7 +55,7 @@ main {
 
 .content {
   width: 90%;
-  background-color: blue;
+  background-color: hsl(0,0%,65%);
 }
 
 
