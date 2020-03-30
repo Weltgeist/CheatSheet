@@ -1,4 +1,9 @@
 header {
   background-image: url(https://coverfiles.alphacoders.com/373/37362.jpg);
   background-color: aqua;
+  height: 60px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
