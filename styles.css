@@ -15,6 +15,7 @@ header {
 
 nav  {
   background-color:  hsl(240, 100%, 50%);
+  color: black;
   margin: 0px -5px;
   padding: 5px 0px;
 }
@@ -22,6 +23,8 @@ nav  {
 nav ul {
   margin: -5px 0px;
   padding: 0px 10px;
+  background-color:  hsl(240, 100%, 50%);
+  color: black;
   /*background-color: red;*/
 }
 
@@ -30,8 +33,13 @@ nav ul li {
   padding: 0px 14px;
   margin: 5px -5px;
   background-color:  hsl(240, 100%, 50%);
+  color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
+}
+
+nav ul li a{
+  color: black;
 }
 
 nav ul li:hover {
