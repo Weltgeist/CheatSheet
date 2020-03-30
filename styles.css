@@ -46,11 +46,19 @@ main {
 
 .index {
   width: 10%;
-  background-color: pink;
+  background-color: hsl(0, 0%, 35%);
+}
+
+.index ul {
+  margin: 0px 0px;
+  padding:5px 5px;
 }
 
 .index li {
+  margin: 5px 0px;
   list-style-type: none;
+  background-color: hsl(0, 0%, 65%);
+  border-radius: 2px;
 }
 
 .content {
