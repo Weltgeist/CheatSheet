@@ -49,6 +49,10 @@ main {
   background-color: pink;
 }
 
+.index li {
+  list-style-type: none;
+}
+
 .content {
   width: 90%;
   background-color: blue;
