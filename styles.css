@@ -1,3 +1,7 @@
+body {
+  background-color: springgreen;
+}
+
 header {
   background-image: url(https://coverfiles.alphacoders.com/373/37362.jpg);
   background-color: aqua;
@@ -6,26 +10,32 @@ header {
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0px -5px;
-  padding: 20px 0px;
+  padding: 10px 0px;
+}
+
+nav  {
+  background-color:  hsl(0, 0%, 65%);
+  margin: 0px -5px;
+  padding: 5px 0px;
+}
+
+nav ul {
+  margin: -5px 0px;
+  padding: 0px 10px;
+  /*background-color: red;*/
 }
 
 nav ul li {
   display: inline;
-}
-
-nav  {
-  background-color: gray;
-  margin: 0px -5px;
-  padding: 2px 0px;
-}
-
-
-footer {
-  background-color: black;
-  color: white;
+  padding: 0px 14px;
+  margin: 5px -5px;
+  background-color: silver;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 0px -5px;
-  padding: 5px 0px;
+  font-weight: bold;
+}
+
+nav ul li:hover {
+  background-color: hsl(0, 0%, 35%);
 }
 
 main {
@@ -43,3 +53,13 @@ main {
   width: 90%;
   background-color: blue;
 }
+
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0px -5px;
+  padding: 5px 0px;
+}
+
