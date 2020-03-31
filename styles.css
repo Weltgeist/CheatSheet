@@ -114,3 +114,7 @@ th {
 .table-container {
   overflow-x:auto;
 }
+
+.col-code {
+  font-family: monospace;
+}
