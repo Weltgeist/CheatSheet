@@ -89,3 +89,7 @@ footer {
 .index .curr-tab {
   background-color:  hsl(220, 100%, 70%);
 }
+
+th {
+  text-transform: uppercase;
+}
