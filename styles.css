@@ -86,3 +86,6 @@ footer {
 .curr-tab {
   background-color:  hsl(220, 100%, 70%);
 }
+.index .curr-tab {
+  background-color:  hsl(220, 100%, 70%);
+}
