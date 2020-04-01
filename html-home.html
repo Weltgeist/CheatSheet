@@ -125,7 +125,7 @@
                 <tr>
                   <td class="col-left">Ordered list</td>
                   <td class="col-code">&ltol&gt</td>
-                  <td class="col-description"></td>
+                  <td class="col-description">The &ltol&gt ordered list element is used to create a list of items in a particular order. Each individual list item will have a numbered bullet point by default.</td>
                   <td class="col-type"></td>
                   <td class="col-categorie">Basic</td>
                 </tr>
@@ -223,9 +223,219 @@
                 <tr>
                   <td class="col-left">Table</td>
                   <td class="col-code">&lttable&gt</td>
-                  <td class="col-description"></td>
+                  <td class="col-description">In HTML, the &lttable&gt element has content that is used to represent a two-dimensional table made of rows and columns.</td>
                   <td class="col-type"></td>
                   <td class="col-categorie">Table</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Table Row</td>
+                  <td class="col-code">&lttr&gt</td>
+                  <td class="col-description">The table row element, &lttr&gt, is used to add rows to a table before adding table data and table headings.</td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Table</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Table data</td>
+                  <td class="col-code">&lttd&gt</td>
+                  <td class="col-description">The table data element, &lttd&gt, can be nested inside a table row element, &lttr&gt, to add a cell of data to a table.</td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Table</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Table header</td>
+                  <td class="col-code">&ltth&gt</td>
+                  <td class="col-description">The table heading element, &ltth&gt, is used to add titles to rows and columns of a table and must be enclosed in a table row element, &lttr&gt.</td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Table</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Columns span</td>
+                  <td class="col-code">&ltcolspan&gt</td>
+                  <td class="col-description">The colspan attribute on a table header &ltth&gt or table data &lttd&gt element indicates how many columns that particular cell should span within the table. The colspan value is set to 1 by default and will take any positive integer between 1 and 1000. </td>
+                  <td class="col-type">Attribute</td>
+                  <td class="col-categorie">Table</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Row span</td>
+                  <td class="col-code">&ltrowspan&gt</td>
+                  <td class="col-description">Similar to colspan, the rowspan attribute on a table header or table data element indicates how many rows that particular cell should span within the table. The rowspan value is set to 1 by default and will take any positive integer up to 65534.</td>
+                  <td class="col-type">Attribute</td>
+                  <td class="col-categorie">Table</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Table head</td>
+                  <td class="col-code">&ltthead&gt</td>
+                  <td class="col-description">The table head element, &ltthead&gt, defines the headings of table columns encapsulated in table rows.</td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Table</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Table body</td>
+                  <td class="col-code">&lttbody&gt</td>
+                  <td class="col-description">The table body element, &lttbody&gt, is a semantic element that will contain all table data other than table heading and table footer content. If used, &lttbody&gt will contain all table row &lttr&gt elements, and indicates that &lttr&gt elements make up the body of the table. &lttable&gt cannot have both &lttbody&gt and &lttr&gt as direct children.</td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Table</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Table footer</td>
+                  <td class="col-code">&lttfoot&gt</td>
+                  <td class="col-description">The table footer element, &lttfoot&gt, uses table rows to give footer content or to summarize content at the end of a table.</td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Table</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Form</td>
+                  <td class="col-code">&ltform&gt</td>
+                  <td class="col-description">The HTML &ltform&gt element is used to collect and send information to an external source.&ltform&gt can contain various input elements. When a user submits the form, information in these input elements is passed to the source which is named in the action attribute of the form.</td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Action</td>
+                  <td class="col-code">&ltaction&gt</td>
+                  <td class="col-description">The action attribute tells the form to send the information. A URL is assigned that determines the recipient of the information. </td>
+                  <td class="col-type">Attribute</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Method</td>
+                  <td class="col-code">&ltmethod&gt</td>
+                  <td class="col-description">The method attribute tells the form what to do with that information once it’s sent. An HTTP verb is assigned to the method attribute that determines the action to be performed. Used to submit a form by either PUT or POST method.</td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Input</td>
+                  <td class="col-code">&ltinput&gt</td>
+                  <td class="col-description">The HTML &ltinput&gt element is used to render a variety of input fields on a webpage including text fields, checkboxes, buttons, etc. &ltinput&gt element have a type attribute that determines how it gets rendered to a page.The example code block will create a text input field and a checkbox input field on a webpage.</td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Type</td>
+                  <td class="col-code">&lttype&gt</td>
+                  <td class="col-description"></td>
+                  <td class="col-type">Attribute</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Datalist</td>
+                  <td class="col-code">&ltdatalist&gt</td>
+                  <td class="col-description">When using an HTML input, a basic search/autocomplete functionality can be achieved by pairing an &ltinput&gt with a &ltdatalist&gt. To pair a &ltinput&gt with a &ltdatalist&gt the &ltinput&gt’s list value must match the value of the id of the &ltdatalist&gt. The datalist element is used to store a list of &ltoption&gts.The list of data is shown as a dropdown on an input field when a user clicks on the input field. As the user starts typing, the list will be updated to show elements that best match what has been typed into the input field. The actual list items are specified as multiple option elements nested inside the datalist.datalists are ideal when providing users a list of pre-defined options, but to also allow them to write alternative inputs as well.</td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Select</td>
+                  <td class="col-code">&ltselect&gt</td>
+                  <td class="col-description">The HTML &ltselect&gt element can be used to create a dropdown list. A list of choices for the dropdown list can be created using one or more &ltoption&gt elements. By default, only one &ltoption&gt can be selected at a time.The value of the selected &ltselect&gt’s name and the &ltoption&gt’ s value attribute are sent as a key-value pair when the form is submitted.</td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Option</td>
+                  <td class="col-code">&ltoption&gt</td>
+                  <td class="col-description"></td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Text area</td>
+                  <td class="col-code">&lttextarea&gt</td>
+                  <td class="col-description">The textarea element is used when creating a text-box for multi-line input (e.g. a comment section). The element supports the rows and cols attributes which determine the height and width, respectively, of the element.When rendered by the browser, textarea fields can be stretched/shrunk in size by the user, but the rows and cols attributes determine the initial size.Unlike the input element, the &lttextarea&gt element has both opening and closing tags. The value of the element is the content in between these tags (much like a &ltp&gt element). The code block shows a &lttextarea&gt of size 10x30 and with a name of "comment".</td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Required</td>
+                  <td class="col-code">&ltrequired&gt</td>
+                  <td class="col-description">In HTML, input fields have an attribute called required which specifies that the field must include a value.The example code block shows an input field that is required. The attribute can be written as required="true" or simply required.</td>
+                  <td class="col-type">Attribute</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Minimum</td>
+                  <td class="col-code">&ltmin&gt</td>
+                  <td class="col-description">In HTML, input fields with type number have an attribute called min that specifies the minimum value that can be entered into the field. The code block provided shows an input number field that accepts a number with minimum value 1.</td>
+                  <td class="col-type">Attribute</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Maximum</td>
+                  <td class="col-code">&ltmax&gt</td>
+                  <td class="col-description">HTML &ltinput&gts of type number have an attribute called max that specifies the maximum value for the input field.The code block shows an input number field that is set to have a maximum value of 20. Any value larger than 20 will mark the input field as having an error.</td>
+                  <td class="col-type">Attribute</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Minimum length</td>
+                  <td class="col-code">&ltminlength&gt</td>
+                  <td class="col-description">In HTML, an input field of type text has an attribute that supports minimum length validation. To check that the input text has a minimum length, add the minlength attribute with the character count.The example code block shows an example of a text field that has a minimum length of 6.</td>
+                  <td class="col-type">Attribute</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Maximum length</td>
+                  <td class="col-code">&ltmaxlength&gt</td>
+                  <td class="col-description">In HTML, input fields with type text have an attribute called maxlength that specifies the maximum number of characters that can be entered into the field. The code block shows an input text field that accepts text that has a maximum length of 140 characters.</td>
+                  <td class="col-type">Attribute</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Pattern</td>
+                  <td class="col-code">&ltpattern&gt</td>
+                  <td class="col-description">In a text input element, the pattern attribute uses a regular expression to match against (or validate) the value of the &ltinput&gt, when the form is submitted.</td>
+                  <td class="col-type">Attribute</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Checkbox</td>
+                  <td class="col-code">"checkbox"</td>
+                  <td class="col-description">When using an HTML input element, the type="checkbox" attribute will render a single checkbox item. To create a group of checkboxes related to the same topic, they should all use the same name attribute. Since it’s a checkbox, multiple checkboxes can be selected for the same topic.</td>
+                  <td class="col-type">Value</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Number</td>
+                  <td class="col-code">"number"</td>
+                  <td class="col-description">HTML input elements can be of type number. These input fields allow the user to enter only numbers and a few special characters inside the field.The example code block shows an input with a type of number and a name of balance. When the input field is a part of a form, the form will receive a key-value pair with the format: name: value after form submission.</td>
+                  <td class="col-type">Value</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Range</td>
+                  <td class="col-code">"range"</td>
+                  <td class="col-description">A slider can be created by using the type="range" attribute on an HTML input element. The range slider will act as a selector between a minimum and a maximum value. These values are set using the min and max attributes respectively. The slider can be adjusted to move in different steps or increments using the step attribute.The range slider is meant to act more as a visual widget to adjust between 2 values, where the relative position is important, but the precise value is not as important. An example of this can be adjusting the volume level of an application.</td>
+                  <td class="col-type">Value</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Text</td>
+                  <td class="col-code">"text"</td>
+                  <td class="col-description">Input text data type.</td>
+                  <td class="col-type">Value</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Radio Button</td>
+                  <td class="col-code">"radio"</td>
+                  <td class="col-description">HTML &ltinput&gt elements can be given a type="radio" attribute that renders a single radio button. Multiple radio buttons of a related topic are given the same name attribute value. Only a single option can be chosen from a group of radio buttons.The value of the selected/checked &ltinput&gt’s name and value attribute of this element are sent as a key-value pair when the form is submitted.</td>
+                  <td class="col-type">Value</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Password</td>
+                  <td class="col-code">"password"</td>
+                  <td class="col-description">The HTML &ltinput&gt element can have the attribute type="password" that renders a single row input field which allows the user to type censored text inside the field. It is used to type in sensitive information.The value of this &ltinput&gt’s name and value (actual value and not the censored version) attribute of this element are sent as a key-value pair when the form is submitted.The code block shows an example of the fields for a basic login form - the username and password fields.</td>
+                  <td class="col-type">Value</td>
+                  <td class="col-categorie">Form</td>
+                </tr>
+                <tr>
+                  <td class="col-left">Label</td>
+                  <td class="col-code">&ltlabel&gt</td>
+                  <td class="col-description">The HTML &ltlabel&gt element provides identification for a specific &ltinput&gt based on matching values of the &ltinput&gt‘s id attribute and the &ltlabel&gt‘s for attribute. By default, clicking on the &ltlabel&gt will focus the field of the related &ltinput&gt.The example code will create a text input field with the label text “Password: “ next to it. Clicking on “Password: “ on the page will focus the field for the related &ltinput&gt.</td>
+                  <td class="col-type"></td>
+                  <td class="col-categorie">Form</td>
                 </tr>
               </tbody>
             </table>
